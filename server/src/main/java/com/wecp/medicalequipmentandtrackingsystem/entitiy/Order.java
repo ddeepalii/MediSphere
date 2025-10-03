@@ -6,5 +6,7 @@ import java.util.Date;
 
 @Table(name = "orders") // do not change table name
 public class Order {
-    
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
 }
