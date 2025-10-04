@@ -12,4 +12,6 @@ public class Hospital {
     @Id
     @GeneratedValue(strategy=GenerationType.IDENTITY)
     private Long id;
+
+    Long test ;
 }
