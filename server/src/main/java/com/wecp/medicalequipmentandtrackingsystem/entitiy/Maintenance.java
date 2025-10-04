@@ -6,5 +6,8 @@ import java.util.Date;
 
 @Table(name = "maintenances") // do not change table name
 public class Maintenance {
+    @Id
+    @GeneratedValue(strategy=GenerationType.IDENTITY)
+    private Long id;
     
 }
